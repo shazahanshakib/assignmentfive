@@ -1,13 +1,13 @@
+console.log('shazahan shakib');
 document.getElementById('blog-btn').addEventListener('click', function(){
-    window.location.href='blog.html';
+        window.location.href='blog.html';  
 })
-
 
 // blog page question
 let ishidden=true;
 // blog page first question
 document.getElementById('first-question').addEventListener('click', function(){
-    // const fqestonP=document.getElementById('first-question-p-tag');
+
     // first question 
     const fquestionP=commonFaq('first-question-p-tag');
     const arrowSymbal=commonFaq('arrow-s-one');
