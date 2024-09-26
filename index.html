@@ -14,7 +14,7 @@
    <header class="navbar flex flex-col bg-[#FFFFFF] ">
      <nav class="flex justify-around pt-6 pb-6 bg-[#F9F7F3] w-full">
         <div>
-            <button id="blog-btn" class="bg-[#B4F461] py-2 px-8 rounded-lg text-[#111111] font-semibold text-xl">Blog</button>
+            <button id="blog-btn" onclick="goToPageBlog()" class="bg-[#B4F461] py-2 px-8 rounded-lg text-[#111111] font-semibold text-xl">Blog</button>
         </div>
         <div class="flex items-center max-sm:hidden">
             <img src="assets/logo.png" alt="">
@@ -115,7 +115,7 @@
 
 
           <!-- popup div  -->
-        <div id="popup-id" class=" bg-red-50 py-4 px-10 rounded-lg text-center flex flex-col items-center fixed invisible z-50 top-28">
+        <div id="popup-id" class=" bg-red-50 py-4 px-10 rounded-lg text-center flex flex-col items-center fixed invisible z-50 top-32">
             <h2 class="text-xl font-bold text-[#111111] my-2">Congrates</h2>
             <div>
             <img src="assets/coin.png" alt="">
@@ -126,12 +126,12 @@
         </div>
       </section>
    </main>
-  
+    
+    <script src="blogconnect.js"></script>
     <script src="timeadd.js"></script>   
     <script src="popupbtn.js"></script>   
     <script src="donationbtn.js"></script>
     <script src="historybtn.js"></script>
-    <script src="blogconnect.js"></script>
     <script src="commonfunction.js"></script>
     <script src="donatenowbtn.js"></script>
 </body>

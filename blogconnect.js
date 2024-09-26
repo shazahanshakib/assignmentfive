@@ -1,7 +1,12 @@
-console.log('shazahan shakib');
-document.getElementById('blog-btn').addEventListener('click', function(){
-        window.location.href='blog.html';  
-})
+
+function goToPageBlog() {
+    window.location.href = "blog.html"; // Replace with the URL of the second page
+}
+
+function goToPageIndex() {
+    window.location.href = "index.html"; // Replace with the URL of the first page
+}
+
 
 // blog page question
 let ishidden=true;
@@ -26,6 +31,7 @@ document.getElementById('first-question').addEventListener('click', function(){
     }
 })
 
+
 // blog page second question 
 document.getElementById('second-question').addEventListener('click', function(){
     const secondQuestionP=commonFaq('second-question-p-tag');
@@ -45,7 +51,7 @@ document.getElementById('second-question').addEventListener('click', function(){
     }
 })
 
-// blog page third question 
+// // blog page third question 
 document.getElementById('third-question').addEventListener('click', function(){
     const thirdQuestionP=commonFaq('third-question-p-tag');
     const arrowSymbal=commonFaq('arrow-s-third');
@@ -64,7 +70,7 @@ document.getElementById('third-question').addEventListener('click', function(){
     }
 })
 
-// blog page fourth question 
+// // blog page fourth question 
 
 document.getElementById('fourth-question').addEventListener('click', function(){
 
