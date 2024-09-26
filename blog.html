@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awasome link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- daisy ui link  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+     <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <nav class="flex justify-around pt-6 pb-6 bg-[#F9F7F3] w-full">
+            <div>
+                <button id="blog-btn" class="bg-[#B4F461] py-2 px-8 rounded-lg text-[#111111] font-semibold text-xl">Blog</button>
+            </div>
+            <div class="flex items-center max-sm:hidden">
+                <img src="assets/logo.png" alt="">
+                <h4 class="text-[#111111] font-semibold text-xl ml-3">Donate Bangladesh</h4>
+            </div>
+            <div class="flex items-center">
+                <img src="assets/coin.png" alt="">
+                <p id="nav-money" class="text-[#111111] font-medium text-xl ml-2">100000</p>
+                <p class="text-[#111111] font-medium text-xl ml-2">BDT</p>
+            </div>
+         </nav>
+    </header>
+    <main>
+        <section class="p-16 max-sm:p-10">
+            <H2 class="text-3xl font-bold text-white my-4">Important FAQ</H2>
+
+            <!-- question card  -->
+             <div id="first-question" class="border border-[#585858] p-4 my-3 flex justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-white my-3">What is the Document Object Model (DOM)?</h2>
+                    <p id="first-question-p-tag" class="text-base font-light text-white hidden">"DOM" stands for Document Object Model. It is a programming interface for web documents, such as HTML or XML. The DOM represents the structure of a document as a tree of objects, where each element, attribute, and text in the document is represented as a node in the tree.</p>
+                </div>
+                <div>
+                    <i id="arrow-s-one" class="fa-solid fa-arrow-right"></i>
+                    <i id="arrow-hidden-one" class="fa-solid fa-arrow-down hidden"></i>
+                </div>
+               
+             </div>
+
+             <!-- second question  -->
+             <div id="second-question" class="border border-[#585858] p-4 flex justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-white my-3">How do you select an element from the DOM?</h2>
+                    <p id="second-question-p-tag" class="text-base font-light text-white hidden">"DOM" stands for Document Object Model. It is a programming interface for web documents, such as HTML or XML. The DOM represents the structure of a document as a tree of objects, where each element, attribute, and text in the document is represented as a node in the tree.</p>
+                </div>
+
+                <div>
+                    <i id="arrow-s-second" class="fa-solid fa-arrow-right"></i>
+                    <i id="arrow-hidden-second" class="fa-solid fa-arrow-down hidden"></i>
+                </div> 
+             </div>
+
+             <!-- third question  -->
+             <div id="third-question" class="border border-[#585858] p-4 my-3 flex justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-white my-3">What is event delegation in the context of the DOM, and why is it useful?</h2>
+                    <p id="third-question-p-tag" class="text-base font-light text-white hidden">"DOM" stands for Document Object Model. It is a programming interface for web documents, such as HTML or XML. The DOM represents the structure of a document as a tree of objects, where each element, attribute, and text in the document is represented as a node in the tree.</p>
+                </div>
+                <div>
+                    <i id="arrow-s-third" class="fa-solid fa-arrow-right"></i>
+                    <i id="arrow-hidden-third" class="fa-solid fa-arrow-down hidden"></i>
+                </div>     
+             </div>
+
+             <!-- four question  -->
+             <div id="fourth-question" class="border border-[#585858] p-4 flex justify-between">
+                <div>
+                    <h2 class="text-xl font-bold text-white my-3">How do you manipulate an element's attributes and styles using the DOM?</h2>
+                    <p id="fourth-question-p-tag" class="text-base font-light text-white hidden">"DOM" stands for Document Object Model. It is a programming interface for web documents, such as HTML or XML. The DOM represents the structure of a document as a tree of objects, where each element, attribute, and text in the document is represented as a node in the tree.</p>
+                </div>
+
+                <div>
+                    <i id="arrow-s-fourth" class="fa-solid fa-arrow-right"></i>
+                    <i id="arrow-hidden-fourth" class="fa-solid fa-arrow-down hidden"></i>
+                </div> 
+             </div>
+        </section>
+    </main>
+    
+
+
+    <script src="blogconnect.js"></script>
+</body>
+</html>
