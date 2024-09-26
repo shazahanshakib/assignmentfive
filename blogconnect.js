@@ -2,11 +2,6 @@ document.getElementById('blog-btn').addEventListener('click', function(){
     window.location.href='blog.html';
 })
 
-// common reusable functon for faq question 
-function commonFaq(id){
-    const questionValue=document.getElementById(id);
-    return questionValue;
-}
 
 // blog page question
 let ishidden=true;

@@ -31,10 +31,9 @@ document.getElementById('donatenow-btn').addEventListener('click', function () {
     else{
         alert('Invalid value');
     }
-    // card h2 tag 
-    const noakhaliHtag= document.getElementById('noakhali-h-tag').innerText;
-
-    // history card div 
+    
+    const noakhaliHtag=document.getElementById('noakhali-h-tag')
+      // history card div 
     const historyCard= document.getElementById('history-sec-div');
 
     // create a history card div in main div 
@@ -50,8 +49,6 @@ document.getElementById('donatenow-btn').addEventListener('click', function () {
     historyCardHtag.appendChild(hTwoTag);
 
     historyCard.appendChild(historyCardHtag);
-
-
     // add time 
     const now = new Date();
 
@@ -74,12 +71,6 @@ document.getElementById('donatenow-btn').addEventListener('click', function () {
     // Display the time inside the div
     timeTag.textContent = 'Date: ' + currentDate + ' ' + ' ,Current Time: ' + currentTime;
     historyCardHtag.appendChild(timeTag);
+
     
-})
-
-// popup btn 
-
-document.getElementById('popup-btn').addEventListener('click', function(){
-    const popupId= document.getElementById('popup-id');
-    popupId.classList.add('invisible');
 })
